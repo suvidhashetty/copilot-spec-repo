@@ -1,0 +1,16 @@
+# Copilot ignore file
+# Files listed here are excluded from Copilot's codebase context.
+# This prevents generated code from polluting suggestions.
+
+# jOOQ generated classes — Copilot should use the DSL via skills, not learn patterns from generated code
+# REPLACE: update this path to match your actual generated sources output directory
+target/generated-sources/jooq/
+
+# Build output
+target/
+build/
+
+# REPLACE: add any other generated file paths specific to your project
+# Examples:
+# target/generated-sources/annotations/
+# src/main/generated/
